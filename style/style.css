@@ -12,7 +12,7 @@
 /*Elementos Base*/
 body{
     background: var(--preto);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: white;
     overflow-x: hidden;
 }
@@ -28,7 +28,7 @@ header .logo{
     color: var(--vermelho);
     font-family: 'Arial Black', Times;
     font-size: 40px;
-    margin-left: 5px;
+    margin-left: 106px;
 }
 
 header nav a{
@@ -143,7 +143,7 @@ header nav a:hover{
     margin: 10px;
 }
 
-.box-serie img:hover {
+.carrossel-series img:hover {
 
     filter: brightness(80%);
     cursor: pointer;
@@ -265,4 +265,9 @@ header nav a:hover{
 
 #menuToggle input:checked~ul {
     transform: none;
+}
+
+.botaoGenero{
+    display: inline-block;
+    padding: 10px;
 }
