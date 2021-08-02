@@ -1,12 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Owl CSS -->
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+
     <title>Netflix</title>
     <link rel="stylesheet" href="style/style.css">
 </head>
+
 <body>
     <header>
         <div class="container">
@@ -24,9 +31,77 @@
         <div class="principal">
             <div class="container">
                 <h3 class="titulo">Breaking Bad</h3>
-                <p class="descricao">Ao saber que tem câncer, um professor passa a fabricar metanfetamina pelo futuro da família, mudando o destino de todos.</p>
+                <p class="descricao">Ao saber que tem câncer, um professor passa a fabricar metanfetamina pelo futuro da
+                    família, mudando o destino de todos.</p>
+                <div class="botoes">
+                    <button role="button" class="botao">
+                        <i class="fas fa-play"></i>
+                        Assistir Agora
+                    </button>
+                    <button role="button" class="botao">
+                        <i class="fas fa-info-circle"></i>
+                        Mais Informações
+                    </button>
+                </div>
             </div>
         </div>
     </main>
+
+    <div class="carrossel-series">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-serie" src="images/bom-dia-veronica.jpg" alt="Logo Bom Dia Verônica">
+            </div>
+            <div class="item">
+                <img class="box-serie" src="images/the-walking-dead.jpg" alt="Logo The Walking Dead">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="images/greys-anatomy.jpg" alt="Logo Grey's Anatomy">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="images/friends.jpg" alt="Logo Friends">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="images/prison-break.jpg" alt="Logo Prison Break">
+            </div>
+        </div>
+
+
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-serie" src="images/designated-survivor.jpg" alt="Logo Designated Survivor">
+            </div>
+            <div class="item">
+                <img class="box-serie" src="images/the-100.jpg" alt="Logo The 100">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="images/top-boy.jpg" alt="Logo Top Boy">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="images/mr-robot.jpg" alt="Logo Mr. Robot">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="images/blindspot.jpg" alt="Logo Blindspot">
+            </div>
+        </div>
+
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-serie" src="images/la-casa-de-papel.jpg" alt="Logo La Casa de Papel">
+            </div>
+            <div class="item">
+                <img class="box-serie" src="images/the-big-bang-theory.jpg" alt="Logo The Big Bang Theory">
+            </div>
+            
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/6abff4415c.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
 </body>
+
 </html>

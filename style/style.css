@@ -44,5 +44,108 @@ header nav a:hover{
 
 .principal{
     font-size: 16px;
-    background: url('./images/capa-breaking-bad.jpg');
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%) ,url('../images/capa-breaking-bad.jpg');
+    
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 90px;
+}
+
+.principal .titulo{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    padding: 7.5px 15px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+
+    border-radius: 0;
+    
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    -webkit-transition: color 150ms ease-in-out;
+    transition: color 150ms ease-in-out;
+
+    border-radius: 4px;
+}
+
+.botao:hover, .botao:focus {
+    color: var(--vermelho);
+    outline: 0;
+}
+
+
+.botao:after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%); 
+    transform: translateX(-50%);
+    width: 0;
+    height: 100%;
+    background: var(--vermelho);
+    z-index: -1;
+    -webkit-transition: width 150ms ease-in-out;
+    transition: width 150ms ease-in-out;
+}
+
+.botao:hover {
+    color: #fff;
+}
+
+.botao:hover:after {
+    width: 110%;
+}
+
+.botao:active:after {
+    background: #167a4a;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+.principal .container{
+    width: 70%;
+}
+
+.box-serie{
+    height: 100%;
+    width: 100%;
+    display: block;
+    margin: 10px;
+}
+
+.box-serie img:hover {
+
+    filter: brightness(80%);
+    cursor: pointer;
+    transition-duration: 0.3s;
+
 }
