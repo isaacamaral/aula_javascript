@@ -1,7 +1,8 @@
 $('.owl-carousel').owlCarousel({
+    stagePadding: 70,
     loop:true,
-    margin:17,
-    nav:false,
+    margin:10,
+    nav:true,
     responsive:{
         0:{
             items:2
