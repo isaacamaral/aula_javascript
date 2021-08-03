@@ -271,3 +271,26 @@ header nav a:hover{
     display: inline-block;
     padding: 10px;
 }
+
+.popup {
+    position: fixed;
+    margin: 7% 38%;
+    width: 307px;
+    height: 183px;
+    padding: 27px;
+    background-color: #181818;
+    display: none;
+}
+
+#fecharPopup{
+    display: inline-block;
+    margin: 0 1% 2% 95%;
+    padding: 0;
+}
+
+#fecharPopup:hover{
+    /* Para escurecer quando o mouse tiver em cima */
+    filter: brightness(70%);
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
