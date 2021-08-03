@@ -1,0 +1,33 @@
+body {
+    background-color: #343A40;
+    text-align: center;
+    /*overflow-x: hidden;*/
+}
+footer{
+    color: #cdcdcd;
+    text-align: center;
+
+    position:absolute;
+    bottom:0;
+    width:99.05%; /*Barra de rolagem se ficar com 100%*/
+}
+
+h1 {
+    color: #fff;
+}
+
+a{
+    color: #fff;
+}
+
+.backbutton{
+    width: 7px;
+    height: 7px;
+    display: block;
+}
+
+.backbutton:hover{
+    filter: brightness(70%);
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
