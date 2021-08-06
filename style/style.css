@@ -274,6 +274,7 @@ header nav a:hover{
 
 .popup {
     position: fixed;
+    z-index:2;
     margin: 7% 38%;
     width: 307px;
     height: 183px;
